@@ -1,0 +1,48 @@
+{{!-- <h1>Burgers</h1>
+
+<h2>Burgers are soo yummy</h2>
+
+<form action="/api/burgers"method="post">
+    <label for="fname">What kind of burgers</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <input type="submit" value="Submit">
+</form> --}}
+
+<h1>burgers!</h1>
+
+<h2>Burgers are yummy!</h2>
+
+<ul>
+    {{#each burgers}}
+    {{#unless devour}}
+    {{> burgers/burger-block sleep=true}}
+    {{/unless}}
+    {{/each}}
+</ul>
+
+<h2>burgers you want to devour!</h2>
+
+<ul>
+    {{#each burgers}}
+    {{#if devour}}
+    {{> burgers/burger-block sleep=false}}
+    {{/if}}
+    {{/each}}
+</ul>
+
+<h2>Add a burger</h2>
+<form class="create-form">
+
+    <div class="form-group">
+        <label for="ca">burger Name:</label>
+        <input type="text" id="ca" name="name">
+    </div>
+
+    <div class="form-group">
+        <label for="devour">devour?</label><br>
+        <input type="radio" name="devour" value="1" checked> devour!<br>
+        <input type="radio" name="devour" value="0"> Eat up
+    </div>
+
+    <button type="submit">Add burger</button>
+</form>
