@@ -1,21 +1,18 @@
-<h1>Burgers</h1>
+{{!-- <h1>Burgers</h1>
 
-<h2>Burgers are soo yummy</h2>
 
 <form action="/api/burgers"method="post">
     <label for="fname">What kind of burgers</label><br>
     <input type="text" id="fname" name="fname" value="John"><br>
     <input type="submit" value="Submit">
-</form>
-
-<h1>burgers!</h1>
+</form> --}}
 
 <h2>Burgers are yummy!</h2>
 
 <ul>
     {{#each burgers}}
-    {{#unless devour}}
-    {{> burgers/burger-block sleep=true}}
+    {{#unless devoured}}
+    {{> burgers/burger-block devour=true}}
     {{/unless}}
     {{/each}}
 </ul>
@@ -24,8 +21,8 @@
 
 <ul>
     {{#each burgers}}
-    {{#if devour}}
-    {{> burgers/burger-block sleep=false}}
+    {{#if devoured}}
+    {{> burgers/burger-block devour=false}}
     {{/if}}
     {{/each}}
 </ul>
