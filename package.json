@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^4.0.3",
+    "lodash": "^4.17.15",
     "mysql": "^2.18.1",
     "travis-ci": "^2.2.0"
   }
