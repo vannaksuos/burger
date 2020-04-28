@@ -1,14 +1,5 @@
-{{!-- <h1>Burgers</h1>
-
-
-<form action="/api/burgers"method="post">
-    <label for="fname">What kind of burgers</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <input type="submit" value="Submit">
-</form> --}}
-
 <h2>Eat The Burger!</h2>
-<img src="burger\public\assets\img\burger.png">
+<img src=".\assets\img\burger.png" id="burger">
 <ul>
     {{#each burgers}}
     {{#unless devoured}}
@@ -31,14 +22,8 @@
 
     <div class="form-group">
         <label for="ca">burger Name:</label>
-        <input type="text" id="ca" name="name">
+        <input type="text" id="burger" name="name" class="burgerInput"/>
     </div>
 
-    <div class="form-group">
-        <label for="devour">devour?</label><br>
-        <input type="radio" name="devour" value="1" checked> devour!<br>
-        <input type="radio" name="devour" value="0"> Eat up
-    </div>
-
-    <button type="submit">Add burger</button>
+    <button type="button" id="addBurger">Add burger</button>
 </form>
