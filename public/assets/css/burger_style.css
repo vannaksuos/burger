@@ -1,23 +1,72 @@
 li {
-    padding: 5px;
     margin: 5px;
     background: #faebd7;
+    margin: auto;
+    width: 75%;
+    border: 3px solid green;
+    padding: 10px;
+    height: 5px;
+
 }
 
 .label {
     font-weight: bold;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
 .create-update-form {
-    padding: 5px;
     margin: 5px;
     background: aqua;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
 .form-group {
     margin-bottom: 5px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
-#burger {
-    height: 40px;
-    width: 40px;
+
+#burgerPic {
+    height: 125px;
+    width: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+#addBurger {
+    margin: auto;
+    width:30%;
+    border: 3px solid green;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ulRight {
+    float:right;
+}
+
+.ulLeft {
+    float:left;
+}
+
+.change-devour {
+float: right;
 }
