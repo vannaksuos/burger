@@ -21,7 +21,7 @@ In this assignment,I will create a burger logger with MySQL, Node, Express, Hand
 
 # Installation
 
-npm init <br> npm i mysql<br> npm i express
+npm init <br> npm i mysql<br> npm i express <br> npm i express-handlebars
 
 # Usage
 
