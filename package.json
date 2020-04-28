@@ -21,6 +21,7 @@
     "express-handlebars": "^4.0.3",
     "lodash": "^4.17.15",
     "mysql": "^2.18.1",
-    "travis-ci": "^2.2.0"
+    "travis-ci": "^2.2.0",
+    "underscore.string": "^3.3.5"
   }
 }
