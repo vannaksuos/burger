@@ -7,9 +7,13 @@
 
 https://vannaksuos.github.io/burger/ 
 
+# Deploy Heroku link
+https://vannak-burger.herokuapp.com/
+
 # Title:Burger
 
 # Badges
+[![Build Status](https://travis-ci.org/vannaksuos/burger.svg?branch=master)](https://travis-ci.org/vannaksuos/burger)
 
 # Description
 
@@ -25,7 +29,8 @@ npm init <br> npm i mysql<br> npm i express <br> npm i express-handlebars
 
 # Usage
 
-run node server.js
+run node server.js <br>
+open app in heroku
 
 # License
 
@@ -50,3 +55,4 @@ Travis ci
 Vannaksuos@gmail.com
 
 # Demo
+![burgerDemo](https://user-images.githubusercontent.com/59664686/80526927-900fa980-8961-11ea-9bd7-f5fe56fd2b3a.gif)
